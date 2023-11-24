@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="CucumberTopic" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="org.stepdefenition.TestRunnerClass" time="0.236">
+    <testsuite name="Feature: To validate the login functionality of facebook application" time="0.204">
+      <testcase name="To validate login with validate username and invalid password" classname="To validate the login functionality of facebook application" time="0.025">
+        <skipped>cucumber.runtime.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="To validate the positive and negative combination of login functionality" classname="To validate the login functionality of facebook application" time="0.002">
+        <skipped>cucumber.runtime.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="To validate the positive and negative combination of login functionality" classname="To validate the login functionality of facebook application" time="0.002">
+        <skipped>cucumber.runtime.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="To validate the positive and negative combination of login functionality" classname="To validate the login functionality of facebook application" time="0.009">
+        <skipped>cucumber.runtime.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="To validate the positive and negative combination of login functionality" classname="To validate the login functionality of facebook application" time="0.003">
+        <skipped>cucumber.runtime.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="To validate the positive and negative combination of login functionality" classname="To validate the login functionality of facebook application" time="0.003">
+        <skipped>cucumber.runtime.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="To validate the positive and negative combination of login functionality" classname="To validate the login functionality of facebook application" time="0.003">
+        <skipped>cucumber.runtime.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="To validate the positive and negative combination of login functionality" classname="To validate the login functionality of facebook application" time="0.003">
+        <skipped>cucumber.runtime.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+    <testsuite name="Feature: To validate the sign in page of amazon application" time="0.002">
+      <testcase name="To sign in the application" classname="To validate the sign in page of amazon application" time="0.002">
+        <skipped>cucumber.runtime.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+    <testsuite name="Feature: To validate the home page in myntra application" time="0.002">
+      <testcase name="To validate the myntra application" classname="To validate the home page in myntra application" time="0.002">
+        <skipped>cucumber.runtime.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

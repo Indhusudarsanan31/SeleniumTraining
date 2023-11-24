@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.samp.MavenSampleProject&apos; to &apos;MyPojo&apos;&#x0D;&#x0A;- Original project: &apos;Maveninstallation&apos;&#x0D;&#x0A;- Original element: &apos;org.samp.MavenSampleProject&apos;&#x0D;&#x0A;- Renamed element: &apos;org.samp.MyPojo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MavenSampleProject&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.samp{MavenSampleProject.java[MavenSampleProject" matchStrategy="1" name="MyPojo" qualified="false" references="true" similarDeclarations="false" stamp="1700567774657" textual="false" version="1.0"/>
+</session>

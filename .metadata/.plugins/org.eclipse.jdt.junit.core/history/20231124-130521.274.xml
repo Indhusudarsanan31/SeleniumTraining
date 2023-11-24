@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="CucumberTopic" tests="10" started="10" failures="0" errors="42" ignored="0">
+  <testsuite name="org.stepdefenition.TestRunnerClass" time="55.132">
+    <testsuite name="Feature: To validate the login functionality of facebook application" time="13.843">
+      <testcase name="To validate login with validate username and invalid password" classname="To validate the login functionality of facebook application" time="13.662"/>
+      <testcase name="To validate the positive and negative combination of login functionality" classname="To validate the login functionality of facebook application" time="0.013">
+        <error>cucumber.runtime.junit.UndefinedThrowable: The step "User has to launch the browser and maximize the window" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to hit the facebook url" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to pass the data "indhu"in email field" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to pass the data "31012000"in password field" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to click the login button" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user has to close the browser" is undefined&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="To validate the positive and negative combination of login functionality" classname="To validate the login functionality of facebook application" time="0.003">
+        <error>cucumber.runtime.junit.UndefinedThrowable: The step "User has to launch the browser and maximize the window" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to hit the facebook url" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to pass the data "sindhu"in email field" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to pass the data "15012002"in password field" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to click the login button" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user has to close the browser" is undefined&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="To validate the positive and negative combination of login functionality" classname="To validate the login functionality of facebook application" time="0.001">
+        <error>cucumber.runtime.junit.UndefinedThrowable: The step "User has to launch the browser and maximize the window" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to hit the facebook url" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to pass the data "ammu"in email field" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to pass the data "10101996"in password field" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to click the login button" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user has to close the browser" is undefined&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="To validate the positive and negative combination of login functionality" classname="To validate the login functionality of facebook application" time="0.001">
+        <error>cucumber.runtime.junit.UndefinedThrowable: The step "User has to launch the browser and maximize the window" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to hit the facebook url" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to pass the data "sudarsanan"in email field" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to pass the data "30051996"in password field" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to click the login button" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user has to close the browser" is undefined&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="To validate the positive and negative combination of login functionality" classname="To validate the login functionality of facebook application" time="0.003">
+        <error>cucumber.runtime.junit.UndefinedThrowable: The step "User has to launch the browser and maximize the window" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to hit the facebook url" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to pass the data "shankar"in email field" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to pass the data "13122000"in password field" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to click the login button" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user has to close the browser" is undefined&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="To validate the positive and negative combination of login functionality" classname="To validate the login functionality of facebook application" time="0.003">
+        <error>cucumber.runtime.junit.UndefinedThrowable: The step "User has to launch the browser and maximize the window" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to hit the facebook url" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to pass the data "indhuja"in email field" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to pass the data "12345678"in password field" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to click the login button" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user has to close the browser" is undefined&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="To validate the positive and negative combination of login functionality" classname="To validate the login functionality of facebook application" time="0.001">
+        <error>cucumber.runtime.junit.UndefinedThrowable: The step "User has to launch the browser and maximize the window" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to hit the facebook url" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to pass the data "indhushankar"in email field" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to pass the data "98765432"in password field" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User has to click the login button" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user has to close the browser" is undefined&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Feature: To validate the sign in page of amazon application" time="28.058">
+      <testcase name="To sign in the application" classname="To validate the sign in page of amazon application" time="28.058"/>
+    </testsuite>
+    <testsuite name="Feature: To validate the home page in myntra application" time="13.198">
+      <testcase name="To validate the myntra application" classname="To validate the home page in myntra application" time="13.198"/>
+    </testsuite>
+  </testsuite>
+</testrun>

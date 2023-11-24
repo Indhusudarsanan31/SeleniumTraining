@@ -1,0 +1,11 @@
+Feature: To validate the login functionality of flipkart application
+
+Scenario: To validate login with valid user name and invalid password
+Scenario: To validate login with empty user name and empty password
+Given To launch the chrome browser and maximize the window
+When To launch the url of the flipkart application
+And To pass valid user name in email field
+And To pass invalid password in password field
+And To click the login button
+And To cheeck weather navigate home page or not 
+Then To close the browser

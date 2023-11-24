@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="CucumberTopic" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="org.stepdefenition.TestRunnerClass" time="38.586">
+    <testsuite name="Feature: To validate the sign in page of amazon application" time="27.768">
+      <testcase name="To sign in the application" classname="To validate the sign in page of amazon application" time="27.768"/>
+    </testsuite>
+    <testsuite name="Feature: To validate the home page in myntra application" time="10.816">
+      <testcase name="To validate the myntra application" classname="To validate the home page in myntra application" time="10.816"/>
+    </testsuite>
+  </testsuite>
+</testrun>

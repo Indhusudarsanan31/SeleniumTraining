@@ -1,0 +1,11 @@
+package org.str;
+
+public class StringMethod {
+	
+	public static void main(String[] args) {
+		
+		String s1 = "InmakesInfotech";
+		System.out.println(s1.length());
+	}
+
+}

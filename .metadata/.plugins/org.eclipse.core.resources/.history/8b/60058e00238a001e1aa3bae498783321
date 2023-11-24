@@ -1,0 +1,12 @@
+Feature: To validate the sign in page of amazon application
+
+Scenario: To sign in the application
+Given To launch the browser and maximize the window
+When To launch the url of the amazon application
+And To click the sign in button
+And To click create new account button 
+And To pass the name in your name text box
+And To pass mobile no or email in email text box 
+And To create the password using password text box
+And To re-enter the password in re-enter password text box
+Then To close the chrome browser

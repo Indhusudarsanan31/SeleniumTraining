@@ -1,0 +1,25 @@
+package org.stepdefenition;
+
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+
+public class HooksClass extends BaseClass1 {
+
+	@Before
+	private void preCondition() {
+		launchBrowser();
+		windowMaximize();
+
+	}
+
+	@After
+	private void postCondition() {
+		closeEntireBrowser();
+
+	}
+
+}
+
+//input[@class='desktop-searchBar']  --- search bar
+
+ //  (//li[@class='desktop-suggestion null'])[1] 

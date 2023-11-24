@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="CucumberTopic" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="org.stepdefenition.TestRunnerClass" time="0.083">
+    <testsuite name="Feature: To validate the sign in page of amazon application" time="0.083">
+      <testcase name="To sign in the application" classname="To validate the sign in page of amazon application" time="0.083">
+        <skipped>cucumber.runtime.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

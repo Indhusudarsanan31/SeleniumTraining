@@ -1,0 +1,9 @@
+@Feature2
+Feature: To validate the home page in myntra application
+
+Scenario: To validate the myntra application
+Given To launch the browwser and maximize the window
+When To launch url of myntra application
+And To search the product
+And To select the first book
+Then To close the browser

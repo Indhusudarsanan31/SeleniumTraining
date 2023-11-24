@@ -1,0 +1,45 @@
+package org.stepdefenition;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class ApplicationLogin extends BaseClass1 {
+
+	@Given("User has to launch the browser and maximize the window.")
+	public void user_has_to_launch_the_browser_and_maximize_the_window() {
+		launchBrowser();
+		windowMaximize();
+	}
+
+	@When("User has to hit the gmail url")
+	public void user_has_to_hit_the_gmail_url() {
+		launchUrl("https://mail.google.com/mail/u/0/");
+
+	}
+
+	@When("User has to pass the data {string} in email field")
+	public void user_has_to_pass_the_data_in_email_field(String em) {
+		WebElement email = driver.findElement(By.xpath("//input[@type='email']"));
+		email.sendKeys("indhushankar");
+		System.out.println(em);
+
+	}
+
+	@When("User has to click the login button")
+	public void user_has_to_click_the_login_button() {
+		WebElement next = driver.findElement(By.xpath("//span[text()='Next']"));
+		next.click();
+
+	}
+
+	@Then("User has to close the browser")
+	public void user_has_to_close_the_browser() {
+		closeEntireBrowser();
+
+	}
+
+}

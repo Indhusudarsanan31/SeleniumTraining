@@ -1,0 +1,29 @@
+import java.util.LinkedHashMap;
+import java.util.Iterator;
+import java.util.Map;
+
+public class LinkedHashMapWithWhileLoop {
+    public static void main(String[] args) {
+        LinkedHashMap<Integer, Integer> linkedHashMap = new LinkedHashMap<>();
+
+        // Add key-value pairs to the LinkedHashMap
+        linkedHashMap.put(10, 10);
+        linkedHashMap.put(20, 20);
+        linkedHashMap.put(30, 30);
+        linkedHashMap.put(40, 40);
+        linkedHashMap.put(50, 50);
+        linkedHashMap.put(60, 60);
+        linkedHashMap.put(10, 10);
+        linkedHashMap.put(50, 50);
+        linkedHashMap.put(40, 40);
+
+        // Iterate and print key-value pairs using a while loop
+        Iterator<Map.Entry<Integer, Integer>> iterator = linkedHashMap.entrySet().iterator();
+        while (iterator.hasNext()) {
+            Map.Entry<Integer, Integer> entry = iterator.next();
+            Integer key = entry.getKey();
+            Integer value = entry.getValue();
+            System.out.println("Key: " + key + ", Value: " + value);
+        }
+    }
+}

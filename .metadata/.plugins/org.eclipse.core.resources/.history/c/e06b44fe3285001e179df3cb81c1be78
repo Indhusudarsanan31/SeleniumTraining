@@ -1,0 +1,22 @@
+package org.samp;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class PojoTopic extends BaseClass1 {
+	public static void main(String[] args) throws InterruptedException {
+		launchBrowser();
+		launchUrl("https://www.facebook.com/");
+		windowMaximize();
+		
+		MavenSampleProject pj = new MavenSampleProject();
+		
+		passText("indhusuresh", pj.getEmail()); 
+		
+		passText("12345", pj.getPassword());
+		
+		
+		
+		
+	}
+}

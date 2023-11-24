@@ -1,0 +1,36 @@
+package org.samp;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class PojoTopic extends BaseClass1 {
+	public static void main(String[] args) {
+		launchBrowser();
+		launchUrl("https://www.flipkart.com/");
+		windowMaximize();
+		
+		MavenSampleProject pojo = new MavenSampleProject();
+		clickBtn(pojo.getLogin());
+		passText("indhusuresh881@gmail", pojo.getEmail());
+		
+		driver.navigate().refresh();
+		passText("sindhusuresh1501@gmail", pojo.getEmail());
+
+		
+	}
+		
+		
+//		WebElement login = driver.findElement(By.xpath("//span[text()='Login']"));
+//		login.click();
+//		
+//		WebElement email = driver.findElement(By.xpath("//input[@class='_2IX_2- VJZDxU']"));
+//		passText();
+//		
+	
+
+	
+
+		
+	
+
+}

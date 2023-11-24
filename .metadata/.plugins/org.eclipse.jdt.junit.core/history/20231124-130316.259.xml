@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="CucumberTopic" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="org.stepdefenition.TestRunnerClass" time="0.169">
+    <testsuite name="Feature: To validate the login functionality of facebook application" time="0.077">
+      <testcase name="To validate login with validate username and invalid password" classname="To validate the login functionality of facebook application" time="0.077">
+        <skipped>cucumber.runtime.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+    <testsuite name="Feature: To validate the sign in page of amazon application" time="0.007">
+      <testcase name="To sign in the application" classname="To validate the sign in page of amazon application" time="0.007">
+        <skipped>cucumber.runtime.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+    <testsuite name="Feature: To validate the home page in myntra application" time="0.001">
+      <testcase name="To validate the myntra application" classname="To validate the home page in myntra application" time="0.001">
+        <skipped>cucumber.runtime.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

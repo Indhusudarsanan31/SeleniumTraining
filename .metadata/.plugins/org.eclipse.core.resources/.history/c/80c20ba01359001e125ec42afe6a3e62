@@ -1,0 +1,33 @@
+package org.str;
+
+public class StringMethod2 {
+	
+	public static void main(String[] args) {
+		
+		String s  = "InmakesInfotech";
+		
+		int lastIndexOf = s.lastIndexOf('o');
+		System.out.println(lastIndexOf);
+		
+		String s1 = "SeleniumAutomationtool";
+		
+		int lastIndexOf1 = s1.lastIndexOf('o');
+		System.out.println(lastIndexOf1);  
+		
+		String s2 = "PenealSamuel";
+		
+		int lastIndexOf2 = s2.lastIndexOf('n');
+		System.out.println(lastIndexOf2); 
+		
+		String s3 = "j a v a p r o g r a m";
+		
+		int lastIndexOf3 = s3.lastIndexOf(' ');
+		System.out.println(lastIndexOf3);
+		
+		String s4 = "9688815564";
+		
+		int  indexOf = s4.indexOf('1');
+		System.out.println(indexOf);
+	}
+
+}

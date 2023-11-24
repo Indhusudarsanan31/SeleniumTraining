@@ -1,0 +1,13 @@
+package org.str;
+
+public class StringMethod2 {
+	
+	public static void main(String[] args) {
+		
+		String s  = "InmakesInfotech";
+		
+		int lastIndexOf = s.lastIndexOf('o');
+		System.out.println(lastIndexOf);
+  	}
+
+}

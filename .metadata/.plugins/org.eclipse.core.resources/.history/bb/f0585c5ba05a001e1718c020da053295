@@ -1,0 +1,20 @@
+package org.str;
+
+
+public class LiteralString{
+	
+	public static void main(String[] args) {
+
+		String s1 = "Nisha";
+		
+		String s2 = "nisha";
+		
+		int compareTo = s2.compareTo(s1);
+		System.out.println(compareTo);
+   }
+	
+}
+	
+	
+
+

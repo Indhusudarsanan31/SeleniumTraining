@@ -1,0 +1,31 @@
+package org.inm;
+
+public class InternEducation extends InternDetail{
+	
+	private void ugDegree() {
+		System.out.println("B.com");
+	}
+	private void ugPercentage() {
+		System.out.println("81%");
+	}
+	
+	public static void main(String[] args) {
+		
+		InternEducation I = new InternEducation();
+		
+		I.internName();
+		I.registeredInternship();
+		I.internshipDuration();
+		I.ugDegree();
+		I.ugPercentage();
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+}

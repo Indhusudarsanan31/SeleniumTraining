@@ -1,0 +1,30 @@
+package org.samp;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class MavenSampleProject extends BaseClass1{
+		
+	public MavenSampleProject() {
+		PageFactory.initElements(driver, this);
+	}
+
+	@FindBy(xpath = "//span[text()='Login']")
+	private WebElement login;
+	
+	public WebElement getLogin() {
+		return login;
+	}
+
+	@FindBy(xpath = "(//input[@autocomplete='off'])[2]")
+	private WebElement email;
+
+	public WebElement getEmail() {
+		return email;
+	}
+	
+	
+}

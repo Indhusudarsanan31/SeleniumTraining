@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="CucumberTopic" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="org.stepdefenition.TestRunnerClass" time="16.932">
+    <testsuite name="Feature: To validate the home page in myntra application" time="16.932">
+      <testcase name="To validate the myntra application" classname="To validate the home page in myntra application" time="16.932"/>
+    </testsuite>
+  </testsuite>
+</testrun>

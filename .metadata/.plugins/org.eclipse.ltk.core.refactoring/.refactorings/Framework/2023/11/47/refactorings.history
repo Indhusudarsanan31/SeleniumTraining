@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BaseClass.java&apos; to &apos;FrameworkTng/src/main/java/org.sinc&apos;&#x0D;&#x0A;- Original project: &apos;Framework&apos;&#x0D;&#x0A;- Destination element: &apos;FrameworkTng/src/main/java/org.sinc&apos;&#x0D;&#x0A;- Original element: &apos;org.ind.BaseClass.java&apos;" description="Copy compilation unit" destination="=FrameworkTng/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.sinc" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.ind{BaseClass.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1700562982903" units="1" version="1.0"/>
+</session>

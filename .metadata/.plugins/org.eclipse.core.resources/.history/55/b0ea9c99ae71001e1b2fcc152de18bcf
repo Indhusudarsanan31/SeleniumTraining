@@ -1,0 +1,24 @@
+import java.util.TreeMap;
+import java.util.Map;
+
+public class TreeMapPrintKeys {
+    public static void main(String[] args) {
+        TreeMap<Character, Integer> treeMap = new TreeMap<>();
+
+        // Add key-value pairs to the TreeMap
+        treeMap.put('!', 10);
+        treeMap.put('@', 20);
+        treeMap.put('#', 30);
+        treeMap.put('$', 40);
+        treeMap.put('%', 50);
+        treeMap.put('^', 60);
+        treeMap.put('&', 10);
+        treeMap.put('*', 50);
+        treeMap.put('(', 40);
+
+        // Print the keys in the TreeMap
+        for (Character key : treeMap.keySet()) {
+            System.out.println("Key: " + key);
+        }
+    }
+}

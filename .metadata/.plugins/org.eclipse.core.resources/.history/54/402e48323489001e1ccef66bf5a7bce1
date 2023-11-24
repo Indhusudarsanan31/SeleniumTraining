@@ -1,0 +1,102 @@
+package org.test;
+
+import java.util.Date;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class NewProject extends BaseClass1{
+	
+	@DataProvider(name = "TestNg")
+	private Object[][] data() {
+		return new Object[][] {
+			{"indhushankar","1331"},
+			{"sindhu","suresh"},
+			{"ammu","123"},
+			{"sudarsanan","567"},
+			{"framework","2000"}
+		};
+	}
+
+	@Test(dataProvider = "TestNg")
+	private void tc33(String e, String p) {
+		launchUrl("https://www.facebook.com/");
+		WebElement email = driver.findElement(By.id("email"));
+		email.sendKeys(e);
+		WebElement password = driver.findElement(By.name("pass"));
+	    password.sendKeys(p);
+	}
+
+	@Test(enabled = false)
+	private void tc2() {
+		launchUrl("https://www.amazon.com/");
+	}
+
+	@BeforeClass
+	private void launchTheBrowser() {
+		launchBrowser();
+		windowMaximize();
+	}
+
+	@AfterClass
+	private void closeTheBrowser() {
+		closeEntireBrowser();
+	}
+
+	@BeforeMethod
+	private void startDate() {
+		Date d = new Date();
+		System.out.println(d);
+	}
+
+	@AfterMethod
+	private void endDate() {
+		Date d = new Date();
+		System.out.println(d);
+	}
+
+	@Test(priority = -20)
+	private void tc3() {
+		System.out.println("Test Case 3");
+	}
+
+	@Test(invocationCount = 2)
+	private void tc4() {
+		launchUrl("https://mail.google.com/mail/u/0/#inbox");
+	}
+
+	@Test(priority = 2)
+	private void tc5() {
+		launchUrl("https://inmakesedu.com/");
+	}
+
+	@Test(priority = -8)
+	private void tc6() {
+		launchUrl("https://www.redbus.in/");
+	}
+
+	@Test(priority = 225)
+	private void tc7() {
+		System.out.println("Test Case 7");
+	}
+
+}
+
+
+
+
+//@Parameters({"userName", "password"})
+//@Test()
+//private void tc1(String e, String p) {
+//	launchUrl("https://www.facebook.com/");
+//	WebElement email = driver.findElement(By.id("email"));
+//	email.sendKeys(e);
+//	WebElement password = driver.findElement(By.name("pass"));
+//    password.sendKeys(p);
+//}

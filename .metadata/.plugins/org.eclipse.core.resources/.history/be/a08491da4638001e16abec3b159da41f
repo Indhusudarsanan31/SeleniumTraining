@@ -1,0 +1,14 @@
+package org.inm;
+
+public class InternDetails {
+	internName            
+	
+	public static void main(String[] args) {
+		System.out.println("Inmakes InfoTech");
+		
+	}
+	
+	
+
+
+}
